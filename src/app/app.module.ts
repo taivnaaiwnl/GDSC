@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ImgpageComponent } from './imgpage/imgpage.component';
+import { CommentsectionComponent } from './commentsection/commentsection.component';
+import { ForgotpassComponent } from './forgotpass/forgotpass.component';
+import { ResetpassComponent } from './resetpass/resetpass.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ImgpageComponent } from './imgpage/imgpage.component';
     FooterComponent,
     AboutusComponent,
     LoginpageComponent,
-    ImgpageComponent
+    ImgpageComponent,
+    CommentsectionComponent,
+    ForgotpassComponent,
+    ResetpassComponent
   ],
   imports: [
     BrowserModule,
